@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bilan Javascript</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.8.0/marked.js"></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <h2>DOM - Supprimer voyelles :</h2>
+            <div>
+                <label for="toto">Texte sans voyelles</label>
+                <textarea name="toto" id="toto"></textarea>
+            </div>
+        </div>
+
+        <hr>
+
+        <div>
+            <h2>DOM - Regex login / mot de passe</h2>
+            <div>
+                <label for="login">Login</label>
+                <input type="text" id="login" name="login">
+            </div>
+
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div id="error"></div>
+        </div>
+
+        <hr>
+
+        <div>
+            <h2>DOM - Editeur de texte + local storage</h2>
+            <div>
+                <label for="local-storage-input">Entrez votre texte</label>
+                <textarea name="local-storage-input" id="local-storage-input"></textarea>
+            </div>
+
+            <div id="local-storage-display"></div>
+        </div>
+    </form>
+</body>
+
+</html>
